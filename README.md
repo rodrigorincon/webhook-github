@@ -39,11 +39,11 @@ The Events endpoint will expose the persist the events by an api that will filte
 
    $ sudo ngrok http 4000 
 
-   <INSERT IMAGE>
+![alt text](imgs/ngrok.png)
 
    GitHub
 
-   <INSERT IMAGE>
+![alt text](imgs/add_webhook.png)
  
 **Final Observations**
 
