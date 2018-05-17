@@ -33,8 +33,6 @@ The Events endpoint will expose the persist the events by an api that will filte
 
 **Github Integration Instructions**
 
-* The relative repo URL you will integrate with is going to provided with the environmental variable GIT_HUB_REPO, ex: improving/ruby-jya-test
-* Use Basic Authentication using the environmental variables: login: GIT_HUB_USER and password: GIT_HUB_PASS
 * Tip: You can use ngrok (https://ngrok.com/)  to install / debug the webhook calls, it generates a public url that will route to your local host:
 
    $ sudo ngrok http 4000 
