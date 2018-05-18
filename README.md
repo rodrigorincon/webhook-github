@@ -13,6 +13,8 @@ The Webhook endpoint receives events from Github and saves them on the database,
 * Webhooks Overview: https://developer.github.com/webhooks/ 
 * Creating Webhooks : https://developer.github.com/webhooks/creating/
 
+It must be called `/events`
+
 ## 2. Events Endpoint
 
 The Events endpoint will expose the persist the events by an api that will filter by issue number
@@ -47,5 +49,10 @@ The Events endpoint will expose the persist the events by an api that will filte
 
 * Use any library / framework / gem  you want, you don't have to do anything "from scratch"
 * Write tests, use your favorite framework for that
-* Update README.md with instructions to run the project
+* Use Postgres 9.6 or MySQL 5.7 as database;
+* Add to README.md your instructions for running the project. Whether you're delivering just source code or an accompanying `Dockerfile`/`docker-compose.yml`, we expect at most the following commands to be needed to run your solution (besides the usual docker related deploy steps):
+    - `rake db:create`
+    - `rake db:migrate`
+    - `rails s -p 3000 -b '0.0.0.0'`
+* We'll run your code with Ruby 2.5.1;
 * Success and have fun :-)
