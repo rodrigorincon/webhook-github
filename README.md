@@ -54,5 +54,5 @@ The Events endpoint will expose the persist the events by an api that will filte
     - `rake db:create`
     - `rake db:migrate`
     - `rails s -p 3000 -b '0.0.0.0'`
-* The smaller supported Ruby version is 2.5.1;
+* The oldest supported Ruby version is 2.5.1;
 * Have fun and we hope you succeed :-)
