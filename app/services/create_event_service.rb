@@ -1,5 +1,7 @@
 class CreateEventService
 
+	attr_reader :issue, :event
+	
 	def initialize(issue_prm, event_prm)
     	@issue = Issue.find_by(github_id: issue_prm[:id])
 		if @issue.nil?
