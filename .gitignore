@@ -16,3 +16,4 @@
 .byebug_history
 
 /vendor/*
+.env
